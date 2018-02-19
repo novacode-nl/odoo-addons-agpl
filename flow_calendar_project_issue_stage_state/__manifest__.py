@@ -12,6 +12,7 @@
     'license': 'AGPL-3',
     'category': 'Extra Tools',
     'depends': [
+        # https://apps.odoo.com/apps/modules/10.0/flow_calendar_project_issue/
         'flow_calendar_project_issue',
         # https://github.com/OCA/project/tree/10.0/project_stage_state
         'project_stage_state'
