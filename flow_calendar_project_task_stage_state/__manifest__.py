@@ -9,7 +9,7 @@
     'author': 'Nova Code',
     'website': 'https://www.novacode.nl',
     'license': 'AGPL-3',
-    'category': 'Extra Tools',
+    'category': 'Project',
     'depends': [
         # https://apps.odoo.com/apps/modules/10.0/flow_calendar_project_task/
         'flow_calendar_project_task',
