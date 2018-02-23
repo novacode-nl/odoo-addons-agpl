@@ -5,12 +5,6 @@
 from odoo import models, fields, api
 
 
-class ProjectTaskType(models.Model):
-    _inherit = 'project.task.type'
-
-    state = fields.Selection(selection_add=[("planned", "Planned")])
-
-
 class Task(models.Model):
     _inherit = "project.task"
 
