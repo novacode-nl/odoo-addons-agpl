@@ -4,8 +4,7 @@
 
 {
     'name': 'Flow Calendar Project Task - Stage State',
-    'summary': 'Handle Tasks with Stage State in the Calendar Event (form).',
-    'description': 'Filter/exclude Tasks, marked done or cancelled, from the Project-Task field in the Calendar Event (form).',
+    'summary': 'Task planning/calendar features by Stage State.',
     'version': '0.1',
     'author': 'Nova Code',
     'website': 'https://www.novacode.nl',
