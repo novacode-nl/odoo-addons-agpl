@@ -1,10 +1,14 @@
+.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
+   :target: https://www.gnu.org/licenses/agpl
+   :alt: License: AGPL-3
+
 ========================================
 Flow Calendar Project Task - Stage State
 ========================================
 
 Task planning/calendar features by Stage State.
 
-This module extends (Flow Calendar Project Task)[https://apps.odoo.com/apps/modules/10.0/flow_calendar_project_task/]
+This module extends **Flow Calendar Project Task** (https://apps.odoo.com/apps/modules/10.0/flow_calendar_project_task/): Nova Code
 
 Features
 ========
