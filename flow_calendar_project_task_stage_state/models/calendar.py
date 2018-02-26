@@ -15,7 +15,7 @@ class Meeting(models.Model):
 
     @api.model
     def create(self, vals):
-        if 'flowcal_task_id' in vals:
+        if vals.get('flowcal_task_id'):
             task = self.env['project.task'].browse(vals.get('flowcal_task_id'))
             if not task.flowcal_event_ids:
                 planned_task_type = task.project_id.type_ids.filtered(lambda r: r.state == 'planned')
