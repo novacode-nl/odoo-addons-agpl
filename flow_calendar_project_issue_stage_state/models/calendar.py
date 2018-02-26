@@ -12,3 +12,13 @@ class Meeting(models.Model):
         'project.issue',
         domain="[('project_id', '=', flowcal_issue_project_id), ('stage_id.state', 'not in', ['done', 'cancelled'])]")
     flowcal_issue_stage_state = fields.Selection(related='flowcal_issue_id.stage_id.state', string='Issue Stage State')
+
+    @api.model
+    def create(self, vals):
+        if vals.get('flowcal_issue_id'):
+            issue = self.env['project.issue'].browse(vals.get('flowcal_issue_id'))
+            if not issue.flowcal_event_ids:
+                planned_type = issue.project_id.type_ids.filtered(lambda r: r.state == 'planned')
+                issue.stage_id = planned_type.id
+
+        return super(Meeting, self).create(vals)
