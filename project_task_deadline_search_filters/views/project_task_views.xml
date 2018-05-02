@@ -13,7 +13,7 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html) -->
                 <filter string="Deadline &lt;= today" name="deadline_lte_today" domain="[('date_deadline', '&lt;=',  (context_today() - datetime.timedelta(days=0)).strftime('%%Y-%%m-%%d'))]"/>
                 <filter string="Deadline &gt; today" name="deadline_gt_today" domain="[('date_deadline', '&gt;',  (context_today() + datetime.timedelta(days=0)).strftime('%%Y-%%m-%%d'))]"/>
                 <separator/>
-                <filter string="Deadline &gt; next week" name="deadline_gt_1_week" domain="[('date_deadline', '&gt;',  (context_today() + datetime.timedelta(days=7)).strftime('%%Y-%%m-%%d'))]"/>
+                <filter string="Deadline &gt; 1 week" name="deadline_gt_1_week" domain="[('date_deadline', '&gt;',  (context_today() + datetime.timedelta(days=7)).strftime('%%Y-%%m-%%d'))]"/>
                 <filter string="Deadline &gt; next 2 weeks" name="deadline_gt_2_weeks" domain="[('date_deadline', '&gt;',  (context_today() + datetime.timedelta(days=14)).strftime('%%Y-%%m-%%d'))]"/>
                 <filter string="Deadline &gt; next 3 weeks" name="deadline_gt_3_weeks" domain="[('date_deadline', '&gt;',  (context_today() + datetime.timedelta(days=21)).strftime('%%Y-%%m-%%d'))]"/>
                 <filter string="Deadline &gt; next 4 weeks" name="deadline_gt_4_weeks" domain="[('date_deadline', '&gt;',  (context_today() + datetime.timedelta(days=28)).strftime('%%Y-%%m-%%d'))]"/>

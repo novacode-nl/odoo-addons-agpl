@@ -1,0 +1,47 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* project_task_deadline_search_filters
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-02 11:06+0000\n"
+"PO-Revision-Date: 2018-05-02 13:07+0200\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: project_task_deadline_search_filters
+#: model:ir.ui.view,arch_db:project_task_deadline_search_filters.view_task_search_form_deadline_filters
+msgid "Deadline <= today"
+msgstr "Deadline <= vandaag"
+
+#. module: project_task_deadline_search_filters
+#: model:ir.ui.view,arch_db:project_task_deadline_search_filters.view_task_search_form_deadline_filters
+msgid "Deadline > 1 week"
+msgstr "Deadline > 1 week"
+
+#. module: project_task_deadline_search_filters
+#: model:ir.ui.view,arch_db:project_task_deadline_search_filters.view_task_search_form_deadline_filters
+msgid "Deadline > next 2 weeks"
+msgstr "Deadline > 2 weken"
+
+#. module: project_task_deadline_search_filters
+#: model:ir.ui.view,arch_db:project_task_deadline_search_filters.view_task_search_form_deadline_filters
+msgid "Deadline > next 3 weeks"
+msgstr "Deadline > 3 weken"
+
+#. module: project_task_deadline_search_filters
+#: model:ir.ui.view,arch_db:project_task_deadline_search_filters.view_task_search_form_deadline_filters
+msgid "Deadline > next 4 weeks"
+msgstr "Deadline > 4 weken"
+
+#. module: project_task_deadline_search_filters
+#: model:ir.ui.view,arch_db:project_task_deadline_search_filters.view_task_search_form_deadline_filters
+msgid "Deadline > today"
+msgstr "Deadline > vandaag"
+
