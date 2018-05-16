@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 Nova Code (http://www.novacode.nl)
+License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html) -->
+
+<odoo>
+    <record id="view_project_kanban_hide_documents" model="ir.ui.view">
+            <field name="name">project.project.kanban.hide.documents</field>
+            <field name="model">project.project</field>
+            <field name="priority" eval="20" />
+            <field name="inherit_id" ref="project.view_project_kanban" />
+            <field name="arch" type="xml">
+                <xpath expr='//div[@t-if="record.doc_count.raw_value"]' position="replace"/>
+            </field>
+    </record>
+</odoo>
